@@ -17822,10 +17822,10 @@ PTH and SMD connector options available.&lt;/p&gt;
 </net>
 <net name="UART" class="0">
 <segment>
-<wire x1="243.84" y1="71.12" x2="243.84" y2="66.04" width="0.1524" layer="91"/>
-<label x="243.84" y="68.58" size="1.778" layer="95"/>
-<wire x1="243.84" y1="71.12" x2="241.3" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="66.04" x2="243.84" y2="60.96" width="0.1524" layer="91"/>
+<label x="243.84" y="63.5" size="1.778" layer="95"/>
 <wire x1="243.84" y1="66.04" x2="241.3" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="60.96" x2="241.3" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
