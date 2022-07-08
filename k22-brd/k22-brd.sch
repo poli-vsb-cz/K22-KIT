@@ -16646,12 +16646,10 @@ PTH and SMD connector options available.&lt;/p&gt;
 <text x="-10.16" y="7.62" size="1.778" layer="95">&gt;NAME</text>
 <text x="2.54" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
-<symbol name="USBLC6-4SC6Y">
+<symbol name="USBLC6-2SC6">
 <pin name="IO1" x="-17.78" y="2.54" length="middle" direction="in"/>
-<pin name="IO2" x="-17.78" y="0" length="middle" direction="in"/>
+<pin name="IO2" x="17.78" y="2.54" length="middle" direction="in" rot="R180"/>
 <pin name="GND" x="0" y="-12.7" length="middle" direction="pwr" rot="R90"/>
-<pin name="IO3" x="17.78" y="2.54" length="middle" direction="in" rot="R180"/>
-<pin name="IO4" x="17.78" y="0" length="middle" direction="in" rot="R180"/>
 <pin name="VUSB" x="0" y="15.24" length="middle" direction="pwr" rot="R270"/>
 <wire x1="-12.7" y1="10.16" x2="12.7" y2="10.16" width="0.254" layer="94"/>
 <wire x1="12.7" y1="10.16" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
@@ -16695,19 +16693,16 @@ PTH and SMD connector options available.&lt;/p&gt;
 </device>
 </devices>
 </deviceset>
-<deviceset name="USBLC6-4SC6Y">
-<description>Automotive very low capacitance ESD protection</description>
+<deviceset name="USBLC6-2SC6">
 <gates>
-<gate name="G$1" symbol="USBLC6-4SC6Y" x="0" y="0"/>
+<gate name="G$1" symbol="USBLC6-2SC6" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="SOT23-6L">
 <connects>
 <connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="IO1" pad="1"/>
-<connect gate="G$1" pin="IO2" pad="3"/>
-<connect gate="G$1" pin="IO3" pad="4"/>
-<connect gate="G$1" pin="IO4" pad="6"/>
+<connect gate="G$1" pin="IO1" pad="1 6" route="any"/>
+<connect gate="G$1" pin="IO2" pad="3 4" route="any"/>
 <connect gate="G$1" pin="VUSB" pad="5"/>
 </connects>
 <technologies>
@@ -16761,7 +16756,8 @@ PTH and SMD connector options available.&lt;/p&gt;
 <part name="RV1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2" value="1k"/>
 <part name="LED_3V3" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2"/>
 <part name="U$2" library="vym0038_k22_misc" deviceset="LMS8117AMP-3.3" device=""/>
-<part name="U$4" library="vym0038_k22_misc" deviceset="USBLC6-4SC6Y" device=""/>
+<part name="U$5" library="vym0038_k22_misc" deviceset="USBLC6-2SC6" device=""/>
+<part name="CU1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="&lt;1,10&gt;u"/>
 </parts>
 <sheets>
 <sheet>
@@ -16769,7 +16765,7 @@ PTH and SMD connector options available.&lt;/p&gt;
 <text x="210.82" y="25.4" size="1.778" layer="104">S SWD Connector</text>
 <text x="-66.04" y="127" size="1.778" layer="104">V Voltage Regulator</text>
 <text x="63.5" y="127" size="1.778" layer="104">M MCU</text>
-<text x="-50.8" y="60.96" size="1.778" layer="104">U USB Connector</text>
+<text x="-50.8" y="68.58" size="1.778" layer="104">U USB Connector</text>
 <text x="124.46" y="2.54" size="1.778" layer="104">L LED PTD5</text>
 <text x="63.5" y="2.54" size="1.778" layer="104">R RESET</text>
 <text x="124.46" y="-15.24" size="1.778" layer="104">B BUTTON PTD4</text>
@@ -16907,9 +16903,13 @@ PTH and SMD connector options available.&lt;/p&gt;
 <attribute name="NAME" x="-27.94" y="124.46" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-15.24" y="104.14" size="1.778" layer="96"/>
 </instance>
-<instance part="U$4" gate="G$1" x="-20.32" y="-30.48" smashed="yes">
-<attribute name="NAME" x="-33.02" y="-17.78" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-15.24" y="-40.64" size="1.778" layer="96"/>
+<instance part="U$5" gate="G$1" x="-15.24" y="-35.56" smashed="yes">
+<attribute name="NAME" x="-27.94" y="-22.86" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-10.16" y="-45.72" size="1.778" layer="96"/>
+</instance>
+<instance part="CU1" gate="G$1" x="-33.02" y="58.42" smashed="yes" rot="R90">
+<attribute name="NAME" x="-33.401" y="59.944" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-28.321" y="59.944" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -17013,11 +17013,6 @@ PTH and SMD connector options available.&lt;/p&gt;
 <label x="213.36" y="7.62" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="-20.32" y1="-43.18" x2="-20.32" y2="-48.26" width="0.1524" layer="91"/>
-<label x="-20.32" y="-48.26" size="1.778" layer="95"/>
-<pinref part="U$4" gate="G$1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="SWB" gate="G$1" pin="4"/>
 <wire x1="148.59" y1="-25.4" x2="160.02" y2="-25.4" width="0.1524" layer="91"/>
 <label x="154.94" y="-25.4" size="1.778" layer="95"/>
@@ -17041,6 +17036,16 @@ PTH and SMD connector options available.&lt;/p&gt;
 <wire x1="220.98" y1="73.66" x2="238.76" y2="73.66" width="0.1524" layer="91"/>
 <label x="223.52" y="73.66" size="1.778" layer="95"/>
 <pinref part="J1" gate="G$1" pin="9"/>
+</segment>
+<segment>
+<wire x1="-15.24" y1="-48.26" x2="-15.24" y2="-53.34" width="0.1524" layer="91"/>
+<pinref part="U$5" gate="G$1" pin="GND"/>
+<label x="-15.24" y="-55.88" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<wire x1="-45.72" y1="58.42" x2="-35.56" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="CU1" gate="G$1" pin="1"/>
+<label x="-45.72" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VBUSCON" class="0">
@@ -17070,9 +17075,9 @@ PTH and SMD connector options available.&lt;/p&gt;
 <label x="-50.8" y="50.8" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="-20.32" y1="-10.16" x2="-20.32" y2="-15.24" width="0.1524" layer="91"/>
-<label x="-20.32" y="-15.24" size="1.778" layer="95" rot="R90"/>
-<pinref part="U$4" gate="G$1" pin="VUSB"/>
+<wire x1="-15.24" y1="-15.24" x2="-15.24" y2="-20.32" width="0.1524" layer="91"/>
+<pinref part="U$5" gate="G$1" pin="VUSB"/>
+<label x="-15.24" y="-20.32" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="CC1CON" class="0">
@@ -17104,9 +17109,9 @@ PTH and SMD connector options available.&lt;/p&gt;
 <label x="-15.24" y="5.08" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="IO2"/>
-<wire x1="-38.1" y1="-30.48" x2="-48.26" y2="-30.48" width="0.1524" layer="91"/>
-<label x="-50.8" y="-30.48" size="1.778" layer="95"/>
+<wire x1="17.78" y1="-33.02" x2="2.54" y2="-33.02" width="0.1524" layer="91"/>
+<pinref part="U$5" gate="G$1" pin="IO2"/>
+<label x="10.16" y="-33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="USBGNDSHIELD" class="0">
@@ -17138,9 +17143,9 @@ PTH and SMD connector options available.&lt;/p&gt;
 <label x="-15.24" y="-2.54" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="IO3"/>
-<wire x1="-2.54" y1="-27.94" x2="7.62" y2="-27.94" width="0.1524" layer="91"/>
-<label x="0" y="-27.94" size="1.778" layer="95"/>
+<wire x1="-43.18" y1="-33.02" x2="-33.02" y2="-33.02" width="0.1524" layer="91"/>
+<pinref part="U$5" gate="G$1" pin="IO1"/>
+<label x="-43.18" y="-33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CC2CON" class="0">
@@ -17160,6 +17165,9 @@ PTH and SMD connector options available.&lt;/p&gt;
 <pinref part="LU1" gate="G$1" pin="1"/>
 <wire x1="-27.94" y1="50.8" x2="-20.32" y2="50.8" width="0.1524" layer="91"/>
 <label x="-25.4" y="50.8" size="1.778" layer="95"/>
+<pinref part="CU1" gate="G$1" pin="2"/>
+<wire x1="-27.94" y1="50.8" x2="-27.94" y2="58.42" width="0.1524" layer="91"/>
+<junction x="-27.94" y="50.8"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="VREGIN"/>
@@ -17172,9 +17180,9 @@ PTH and SMD connector options available.&lt;/p&gt;
 <label x="-66.04" y="119.38" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="220.98" y1="91.44" x2="238.76" y2="91.44" width="0.1524" layer="91"/>
-<label x="223.52" y="91.44" size="1.778" layer="95"/>
-<pinref part="J1" gate="G$1" pin="2"/>
+<wire x1="220.98" y1="88.9" x2="238.76" y2="88.9" width="0.1524" layer="91"/>
+<label x="223.52" y="88.9" size="1.778" layer="95"/>
+<pinref part="J1" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="D+" class="0">
@@ -17780,9 +17788,9 @@ PTH and SMD connector options available.&lt;/p&gt;
 <label x="-66.04" y="114.3" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="220.98" y1="88.9" x2="238.76" y2="88.9" width="0.1524" layer="91"/>
-<label x="223.52" y="88.9" size="1.778" layer="95"/>
-<pinref part="J1" gate="G$1" pin="3"/>
+<wire x1="220.98" y1="91.44" x2="238.76" y2="91.44" width="0.1524" layer="91"/>
+<label x="223.52" y="91.44" size="1.778" layer="95"/>
+<pinref part="J1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$3" class="0">
