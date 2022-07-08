@@ -17028,19 +17028,19 @@ PTH and SMD connector options available.&lt;/p&gt;
 <pinref part="RV1" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="220.98" y1="71.12" x2="238.76" y2="71.12" width="0.1524" layer="91"/>
-<label x="223.52" y="71.12" size="1.778" layer="95"/>
-<pinref part="J1" gate="G$1" pin="10"/>
-</segment>
-<segment>
-<wire x1="220.98" y1="81.28" x2="238.76" y2="81.28" width="0.1524" layer="91"/>
-<label x="223.52" y="81.28" size="1.778" layer="95"/>
-<pinref part="J1" gate="G$1" pin="6"/>
-</segment>
-<segment>
 <wire x1="220.98" y1="93.98" x2="238.76" y2="93.98" width="0.1524" layer="91"/>
 <label x="223.52" y="93.98" size="1.778" layer="95"/>
 <pinref part="J1" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<wire x1="220.98" y1="63.5" x2="238.76" y2="63.5" width="0.1524" layer="91"/>
+<label x="223.52" y="63.5" size="1.778" layer="95"/>
+<pinref part="J1" gate="G$1" pin="13"/>
+</segment>
+<segment>
+<wire x1="220.98" y1="73.66" x2="238.76" y2="73.66" width="0.1524" layer="91"/>
+<label x="223.52" y="73.66" size="1.778" layer="95"/>
+<pinref part="J1" gate="G$1" pin="9"/>
 </segment>
 </net>
 <net name="VBUSCON" class="0">
@@ -17068,6 +17068,11 @@ PTH and SMD connector options available.&lt;/p&gt;
 <pinref part="LU1" gate="G$1" pin="2"/>
 <wire x1="-45.72" y1="50.8" x2="-38.1" y2="50.8" width="0.1524" layer="91"/>
 <label x="-50.8" y="50.8" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="-20.32" y1="-10.16" x2="-20.32" y2="-15.24" width="0.1524" layer="91"/>
+<label x="-20.32" y="-15.24" size="1.778" layer="95" rot="R90"/>
+<pinref part="U$4" gate="G$1" pin="VUSB"/>
 </segment>
 </net>
 <net name="CC1CON" class="0">
@@ -17099,9 +17104,9 @@ PTH and SMD connector options available.&lt;/p&gt;
 <label x="-15.24" y="5.08" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="-48.26" y1="-27.94" x2="-38.1" y2="-27.94" width="0.1524" layer="91"/>
-<label x="-48.26" y="-27.94" size="1.778" layer="95"/>
-<pinref part="U$4" gate="G$1" pin="IO1"/>
+<pinref part="U$4" gate="G$1" pin="IO2"/>
+<wire x1="-38.1" y1="-30.48" x2="-48.26" y2="-30.48" width="0.1524" layer="91"/>
+<label x="-50.8" y="-30.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="USBGNDSHIELD" class="0">
@@ -17133,9 +17138,9 @@ PTH and SMD connector options available.&lt;/p&gt;
 <label x="-15.24" y="-2.54" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="IO2"/>
-<wire x1="-38.1" y1="-30.48" x2="-48.26" y2="-30.48" width="0.1524" layer="91"/>
-<label x="-48.26" y="-30.48" size="1.778" layer="95"/>
+<pinref part="U$4" gate="G$1" pin="IO3"/>
+<wire x1="-2.54" y1="-27.94" x2="7.62" y2="-27.94" width="0.1524" layer="91"/>
+<label x="0" y="-27.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CC2CON" class="0">
@@ -17167,14 +17172,9 @@ PTH and SMD connector options available.&lt;/p&gt;
 <label x="-66.04" y="119.38" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="-20.32" y1="-10.16" x2="-20.32" y2="-15.24" width="0.1524" layer="91"/>
-<label x="-20.32" y="-15.24" size="1.778" layer="95" rot="R90"/>
-<pinref part="U$4" gate="G$1" pin="VUSB"/>
-</segment>
-<segment>
-<wire x1="220.98" y1="88.9" x2="238.76" y2="88.9" width="0.1524" layer="91"/>
-<label x="223.52" y="88.9" size="1.778" layer="95"/>
-<pinref part="J1" gate="G$1" pin="3"/>
+<wire x1="220.98" y1="91.44" x2="238.76" y2="91.44" width="0.1524" layer="91"/>
+<label x="223.52" y="91.44" size="1.778" layer="95"/>
+<pinref part="J1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="D+" class="0">
@@ -17220,9 +17220,9 @@ PTH and SMD connector options available.&lt;/p&gt;
 <label x="63.5" y="81.28" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="220.98" y1="76.2" x2="238.76" y2="76.2" width="0.1524" layer="91"/>
-<label x="223.52" y="76.2" size="1.778" layer="95"/>
-<pinref part="J1" gate="G$1" pin="8"/>
+<wire x1="220.98" y1="83.82" x2="238.76" y2="83.82" width="0.1524" layer="91"/>
+<label x="223.52" y="83.82" size="1.778" layer="95"/>
+<pinref part="J1" gate="G$1" pin="5"/>
 </segment>
 </net>
 <net name="DM0" class="0">
@@ -17232,9 +17232,9 @@ PTH and SMD connector options available.&lt;/p&gt;
 <label x="63.5" y="78.74" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="220.98" y1="73.66" x2="238.76" y2="73.66" width="0.1524" layer="91"/>
-<label x="223.52" y="73.66" size="1.778" layer="95"/>
-<pinref part="J1" gate="G$1" pin="9"/>
+<wire x1="220.98" y1="81.28" x2="238.76" y2="81.28" width="0.1524" layer="91"/>
+<label x="223.52" y="81.28" size="1.778" layer="95"/>
+<pinref part="J1" gate="G$1" pin="6"/>
 </segment>
 </net>
 <net name="VREF" class="0">
@@ -17244,9 +17244,9 @@ PTH and SMD connector options available.&lt;/p&gt;
 <label x="63.5" y="63.5" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="220.98" y1="68.58" x2="238.76" y2="68.58" width="0.1524" layer="91"/>
-<label x="223.52" y="68.58" size="1.778" layer="95"/>
-<pinref part="J1" gate="G$1" pin="11"/>
+<wire x1="220.98" y1="78.74" x2="238.76" y2="78.74" width="0.1524" layer="91"/>
+<label x="223.52" y="78.74" size="1.778" layer="95"/>
+<pinref part="J1" gate="G$1" pin="7"/>
 </segment>
 </net>
 <net name="VBAT" class="0">
@@ -17268,9 +17268,9 @@ PTH and SMD connector options available.&lt;/p&gt;
 <label x="261.62" y="7.62" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="220.98" y1="66.04" x2="238.76" y2="66.04" width="0.1524" layer="91"/>
-<label x="223.52" y="66.04" size="1.778" layer="95"/>
-<pinref part="J1" gate="G$1" pin="12"/>
+<wire x1="220.98" y1="68.58" x2="238.76" y2="68.58" width="0.1524" layer="91"/>
+<label x="223.52" y="68.58" size="1.778" layer="95"/>
+<pinref part="J1" gate="G$1" pin="11"/>
 </segment>
 </net>
 <net name="UART_RX" class="0">
@@ -17302,9 +17302,9 @@ PTH and SMD connector options available.&lt;/p&gt;
 <label x="297.18" y="7.62" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="220.98" y1="63.5" x2="238.76" y2="63.5" width="0.1524" layer="91"/>
-<label x="223.52" y="63.5" size="1.778" layer="95"/>
-<pinref part="J1" gate="G$1" pin="13"/>
+<wire x1="220.98" y1="58.42" x2="238.76" y2="58.42" width="0.1524" layer="91"/>
+<label x="223.52" y="58.42" size="1.778" layer="95"/>
+<pinref part="J1" gate="G$1" pin="15"/>
 </segment>
 </net>
 <net name="SWD_DIO" class="0">
@@ -17323,9 +17323,9 @@ PTH and SMD connector options available.&lt;/p&gt;
 <junction x="259.08" y="10.16"/>
 </segment>
 <segment>
-<wire x1="220.98" y1="58.42" x2="238.76" y2="58.42" width="0.1524" layer="91"/>
-<label x="223.52" y="58.42" size="1.778" layer="95"/>
-<pinref part="J1" gate="G$1" pin="15"/>
+<wire x1="220.98" y1="66.04" x2="238.76" y2="66.04" width="0.1524" layer="91"/>
+<label x="223.52" y="66.04" size="1.778" layer="95"/>
+<pinref part="J1" gate="G$1" pin="12"/>
 </segment>
 </net>
 <net name="PTA4" class="0">
@@ -17390,9 +17390,9 @@ PTH and SMD connector options available.&lt;/p&gt;
 <label x="261.62" y="0" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="220.98" y1="78.74" x2="238.76" y2="78.74" width="0.1524" layer="91"/>
-<label x="223.52" y="78.74" size="1.778" layer="95"/>
-<pinref part="J1" gate="G$1" pin="7"/>
+<wire x1="220.98" y1="71.12" x2="238.76" y2="71.12" width="0.1524" layer="91"/>
+<label x="223.52" y="71.12" size="1.778" layer="95"/>
+<pinref part="J1" gate="G$1" pin="10"/>
 </segment>
 </net>
 <net name="PTB0" class="0">
@@ -17709,11 +17709,6 @@ PTH and SMD connector options available.&lt;/p&gt;
 <label x="63.5" y="-5.08" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="220.98" y1="83.82" x2="238.76" y2="83.82" width="0.1524" layer="91"/>
-<label x="223.52" y="83.82" size="1.778" layer="95"/>
-<pinref part="J1" gate="G$1" pin="5"/>
-</segment>
-<segment>
 <pinref part="CM1" gate="G$1" pin="2"/>
 <pinref part="CM2" gate="G$1" pin="2"/>
 <wire x1="124.46" y1="116.84" x2="137.16" y2="116.84" width="0.1524" layer="91"/>
@@ -17721,6 +17716,16 @@ PTH and SMD connector options available.&lt;/p&gt;
 <pinref part="CM3" gate="G$1" pin="2"/>
 <wire x1="137.16" y1="116.84" x2="149.86" y2="116.84" width="0.1524" layer="91"/>
 <junction x="137.16" y="116.84"/>
+</segment>
+<segment>
+<wire x1="220.98" y1="86.36" x2="238.76" y2="86.36" width="0.1524" layer="91"/>
+<label x="223.52" y="86.36" size="1.778" layer="95"/>
+<pinref part="J1" gate="G$1" pin="4"/>
+</segment>
+<segment>
+<wire x1="220.98" y1="76.2" x2="238.76" y2="76.2" width="0.1524" layer="91"/>
+<label x="223.52" y="76.2" size="1.778" layer="95"/>
+<pinref part="J1" gate="G$1" pin="8"/>
 </segment>
 </net>
 <net name="PTA18" class="0">
@@ -17775,9 +17780,9 @@ PTH and SMD connector options available.&lt;/p&gt;
 <label x="-66.04" y="114.3" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="220.98" y1="91.44" x2="238.76" y2="91.44" width="0.1524" layer="91"/>
-<label x="223.52" y="91.44" size="1.778" layer="95"/>
-<pinref part="J1" gate="G$1" pin="2"/>
+<wire x1="220.98" y1="88.9" x2="238.76" y2="88.9" width="0.1524" layer="91"/>
+<label x="223.52" y="88.9" size="1.778" layer="95"/>
+<pinref part="J1" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -17814,25 +17819,18 @@ PTH and SMD connector options available.&lt;/p&gt;
 </net>
 <net name="SWD" class="0">
 <segment>
-<wire x1="243.84" y1="83.82" x2="243.84" y2="73.66" width="0.1524" layer="91"/>
-<label x="243.84" y="78.74" size="1.778" layer="95"/>
-<wire x1="243.84" y1="83.82" x2="241.3" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="243.84" y1="73.66" x2="241.3" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="76.2" x2="243.84" y2="66.04" width="0.1524" layer="91"/>
+<label x="243.84" y="71.12" size="1.778" layer="95"/>
+<wire x1="243.84" y1="76.2" x2="241.3" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="66.04" x2="241.3" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="UART" class="0">
 <segment>
-<wire x1="243.84" y1="66.04" x2="243.84" y2="60.96" width="0.1524" layer="91"/>
-<label x="243.84" y="63.5" size="1.778" layer="95"/>
-<wire x1="243.84" y1="66.04" x2="241.3" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="243.84" y1="60.96" x2="241.3" y2="60.96" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<wire x1="220.98" y1="86.36" x2="238.76" y2="86.36" width="0.1524" layer="91"/>
-<label x="223.52" y="86.36" size="1.778" layer="95"/>
-<pinref part="J1" gate="G$1" pin="4"/>
+<wire x1="243.84" y1="63.5" x2="243.84" y2="58.42" width="0.1524" layer="91"/>
+<label x="243.84" y="60.96" size="1.778" layer="95"/>
+<wire x1="243.84" y1="63.5" x2="241.3" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="58.42" x2="241.3" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
