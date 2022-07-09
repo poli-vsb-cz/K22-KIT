@@ -17109,9 +17109,9 @@ PTH and SMD connector options available.&lt;/p&gt;
 <label x="-15.24" y="5.08" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="17.78" y1="-33.02" x2="2.54" y2="-33.02" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="IO2"/>
-<label x="10.16" y="-33.02" size="1.778" layer="95"/>
+<wire x1="-43.18" y1="-33.02" x2="-33.02" y2="-33.02" width="0.1524" layer="91"/>
+<pinref part="U$5" gate="G$1" pin="IO1"/>
+<label x="-43.18" y="-33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="USBGNDSHIELD" class="0">
@@ -17143,9 +17143,9 @@ PTH and SMD connector options available.&lt;/p&gt;
 <label x="-15.24" y="-2.54" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="-43.18" y1="-33.02" x2="-33.02" y2="-33.02" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="IO1"/>
-<label x="-43.18" y="-33.02" size="1.778" layer="95"/>
+<wire x1="17.78" y1="-33.02" x2="2.54" y2="-33.02" width="0.1524" layer="91"/>
+<pinref part="U$5" gate="G$1" pin="IO2"/>
+<label x="10.16" y="-33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CC2CON" class="0">
