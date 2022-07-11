@@ -206,56 +206,56 @@
 <text x="11.43" y="26.035" size="1.5" layer="111" ratio="15" align="center">K2x</text>
 <text x="17.145" y="48.895" size="0.9" layer="111" ratio="15" align="center">+</text>
 <text x="17.145" y="46.83125" size="0.9" layer="111" ratio="15" align="center">+</text>
-<text x="8.5725" y="39.0525" size="0.8" layer="111" ratio="15" rot="R270" align="bottom-center">RST</text>
-<text x="14.2875" y="39.0525" size="0.8" layer="111" ratio="15" rot="R270" align="top-center">PTD4</text>
-<text x="15.24" y="50.8" size="0.8" layer="111" ratio="15" rot="R270" align="top-center">PWR</text>
-<text x="15.24" y="44.7675" size="0.8" layer="111" ratio="15" rot="R270" align="top-center">PTD5</text>
+<text x="8.5725" y="39.0525" size="0.9" layer="111" ratio="15" rot="R270" align="bottom-center">RST</text>
+<text x="14.2875" y="39.0525" size="0.9" layer="111" ratio="15" rot="R270" align="top-center">PTD4</text>
+<text x="15.24" y="50.8" size="0.9" layer="111" ratio="15" rot="R270" align="top-center">PWR</text>
+<text x="15.24" y="44.7675" size="0.9" layer="111" ratio="15" rot="R270" align="top-center">PTD5</text>
 <wire x1="6.82625" y1="49.68875" x2="6.82625" y2="49.05375" width="0.1524" layer="30"/>
 <wire x1="6.50875" y1="49.37125" x2="7.14375" y2="49.37125" width="0.1524" layer="30"/>
 <wire x1="3.81" y1="49.53" x2="4.445" y2="49.53" width="0.1524" layer="30"/>
 <wire x1="4.1275" y1="49.8475" x2="4.1275" y2="49.2125" width="0.1524" layer="30"/>
 <circle x="7.77875" y="3.175" radius="0.127" width="0.254" layer="111"/>
 <text x="3.96875" y="50.8" size="0.8" layer="111" ratio="15" rot="R180" align="center-right">GND</text>
-<text x="3.96875" y="50.8" size="0.8" layer="111" ratio="15" rot="R180" align="center-right">GND</text>
-<text x="3.96875" y="48.26" size="0.8" layer="111" ratio="15" rot="R180" align="center-right">VIN</text>
-<text x="3.96875" y="45.72" size="0.8" layer="111" ratio="15" rot="R180" align="center-right">USB5V</text>
-<text x="3.96875" y="43.18" size="0.8" layer="111" ratio="15" rot="R180" align="center-right">3V3</text>
-<text x="3.96875" y="40.64" size="0.8" layer="111" ratio="15" rot="R180" align="center-right">P0</text>
+<text x="3.96875" y="50.8" size="0.9" layer="111" ratio="15" rot="R180" align="center-right">GND</text>
+<text x="3.96875" y="48.26" size="0.9" layer="111" ratio="15" rot="R180" align="center-right">VIN</text>
+<text x="3.96875" y="45.72" size="0.9" layer="111" ratio="15" rot="R180" align="center-right">USB5V</text>
+<text x="3.96875" y="43.18" size="0.9" layer="111" ratio="15" rot="R180" align="center-right">3V3</text>
+<text x="3.96875" y="40.64" size="0.9" layer="111" ratio="15" rot="R180" align="center-right">P0</text>
 <text x="3.96875" y="38.1" size="0.8" layer="111" ratio="15" rot="R180" align="center-right">M0</text>
-<text x="3.96875" y="35.56" size="0.8" layer="111" ratio="15" rot="R180" align="center-right">VREF</text>
-<text x="3.96875" y="33.02" size="0.8" layer="111" ratio="15" rot="R180" align="center-right">3V3</text>
-<text x="3.96875" y="30.48" size="0.8" layer="111" ratio="15" rot="R180" align="center-right">GND</text>
-<text x="3.96875" y="27.94" size="0.8" layer="111" ratio="15" rot="R180" align="center-right">RST</text>
-<text x="3.96875" y="25.4" size="0.8" layer="111" ratio="15" rot="R180" align="center-right">CLK</text>
-<text x="3.96875" y="22.86" size="0.8" layer="111" ratio="15" rot="R180" align="center-right">DIO</text>
-<text x="3.96875" y="20.32" size="0.8" layer="111" ratio="15" rot="R180" align="center-right">GND</text>
-<text x="3.96875" y="17.78" size="0.8" layer="111" ratio="15" rot="R180" align="center-right">RX0</text>
-<text x="3.96875" y="15.24" size="0.8" layer="111" ratio="15" rot="R180" align="center-right">TX0</text>
-<text x="3.96875" y="12.7" size="0.8" layer="111" ratio="15" rot="R180" align="center-right">A4</text>
-<text x="3.96875" y="10.16" size="0.8" layer="111" ratio="15" rot="R180" align="center-right">A18</text>
-<text x="3.96875" y="7.62" size="0.8" layer="111" ratio="15" rot="R180" align="center-right">A19</text>
-<text x="3.96875" y="5.08" size="0.8" layer="111" ratio="15" rot="R180" align="center-right">B0</text>
-<text x="3.96875" y="2.54" size="0.8" layer="111" ratio="15" rot="R180" align="center-right">B1</text>
-<text x="18.89125" y="50.8" size="0.8" layer="111" ratio="15" rot="R180" align="center-left">D7</text>
-<text x="18.89125" y="48.26" size="0.8" layer="111" ratio="15" rot="R180" align="center-left">D6</text>
-<text x="18.89125" y="45.72" size="0.8" layer="111" ratio="15" rot="R180" align="center-left">D5</text>
-<text x="18.89125" y="43.18" size="0.8" layer="111" ratio="15" rot="R180" align="center-left">D4</text>
+<text x="3.96875" y="35.56" size="0.9" layer="111" ratio="15" rot="R180" align="center-right">VREF</text>
+<text x="3.96875" y="33.02" size="0.9" layer="111" ratio="15" rot="R180" align="center-right">3V3</text>
+<text x="3.96875" y="30.48" size="0.9" layer="111" ratio="15" rot="R180" align="center-right">GND</text>
+<text x="3.96875" y="27.94" size="0.9" layer="111" ratio="15" rot="R180" align="center-right">RST</text>
+<text x="3.96875" y="25.4" size="0.9" layer="111" ratio="15" rot="R180" align="center-right">CLK</text>
+<text x="3.96875" y="22.86" size="0.9" layer="111" ratio="15" rot="R180" align="center-right">DIO</text>
+<text x="3.96875" y="20.32" size="0.9" layer="111" ratio="15" rot="R180" align="center-right">GND</text>
+<text x="3.96875" y="17.78" size="0.9" layer="111" ratio="15" rot="R180" align="center-right">RX0</text>
+<text x="3.96875" y="15.24" size="0.9" layer="111" ratio="15" rot="R180" align="center-right">TX0</text>
+<text x="3.96875" y="12.7" size="0.9" layer="111" ratio="15" rot="R180" align="center-right">A4</text>
+<text x="3.96875" y="10.16" size="0.9" layer="111" ratio="15" rot="R180" align="center-right">A18</text>
+<text x="3.96875" y="7.62" size="0.9" layer="111" ratio="15" rot="R180" align="center-right">A19</text>
+<text x="3.96875" y="5.08" size="0.9" layer="111" ratio="15" rot="R180" align="center-right">B0</text>
+<text x="3.96875" y="2.54" size="0.9" layer="111" ratio="15" rot="R180" align="center-right">B1</text>
+<text x="18.89125" y="50.8" size="0.9" layer="111" ratio="15" rot="R180" align="center-left">D7</text>
+<text x="18.89125" y="48.26" size="0.9" layer="111" ratio="15" rot="R180" align="center-left">D6</text>
+<text x="18.89125" y="45.72" size="0.9" layer="111" ratio="15" rot="R180" align="center-left">D5</text>
+<text x="18.89125" y="43.18" size="0.9" layer="111" ratio="15" rot="R180" align="center-left">D4</text>
 <text x="18.89125" y="40.64" size="0.8" layer="111" ratio="15" rot="R180" align="center-left">D3</text>
 <text x="18.89125" y="38.1" size="0.8" layer="111" ratio="15" rot="R180" align="center-left">D2</text>
-<text x="18.89125" y="35.56" size="0.8" layer="111" ratio="15" rot="R180" align="center-left">D1</text>
-<text x="18.89125" y="33.02" size="0.8" layer="111" ratio="15" rot="R180" align="center-left">D0</text>
-<text x="18.89125" y="30.48" size="0.8" layer="111" ratio="15" rot="R180" align="center-left">C7</text>
-<text x="18.89125" y="27.94" size="0.8" layer="111" ratio="15" rot="R180" align="center-left">C6</text>
-<text x="18.89125" y="25.4" size="0.8" layer="111" ratio="15" rot="R180" align="center-left">C5</text>
-<text x="18.89125" y="22.86" size="0.8" layer="111" ratio="15" rot="R180" align="center-left">C4</text>
-<text x="18.89125" y="20.32" size="0.8" layer="111" ratio="15" rot="R180" align="center-left">C3</text>
-<text x="18.89125" y="17.78" size="0.8" layer="111" ratio="15" rot="R180" align="center-left">C2</text>
-<text x="18.89125" y="15.24" size="0.8" layer="111" ratio="15" rot="R180" align="center-left">C1</text>
-<text x="18.89125" y="12.7" size="0.8" layer="111" ratio="15" rot="R180" align="center-left">C0</text>
-<text x="18.89125" y="10.16" size="0.8" layer="111" ratio="15" rot="R180" align="center-left">B17</text>
-<text x="18.89125" y="7.62" size="0.8" layer="111" ratio="15" rot="R180" align="center-left">B16</text>
-<text x="18.89125" y="5.08" size="0.8" layer="111" ratio="15" rot="R180" align="center-left">B3</text>
-<text x="18.89125" y="2.54" size="0.8" layer="111" ratio="15" rot="R180" align="center-left">B2</text>
+<text x="18.89125" y="35.56" size="0.9" layer="111" ratio="15" rot="R180" align="center-left">D1</text>
+<text x="18.89125" y="33.02" size="0.9" layer="111" ratio="15" rot="R180" align="center-left">D0</text>
+<text x="18.89125" y="30.48" size="0.9" layer="111" ratio="15" rot="R180" align="center-left">C7</text>
+<text x="18.89125" y="27.94" size="0.9" layer="111" ratio="15" rot="R180" align="center-left">C6</text>
+<text x="18.89125" y="25.4" size="0.9" layer="111" ratio="15" rot="R180" align="center-left">C5</text>
+<text x="18.89125" y="22.86" size="0.9" layer="111" ratio="15" rot="R180" align="center-left">C4</text>
+<text x="18.89125" y="20.32" size="0.9" layer="111" ratio="15" rot="R180" align="center-left">C3</text>
+<text x="18.89125" y="17.78" size="0.9" layer="111" ratio="15" rot="R180" align="center-left">C2</text>
+<text x="18.89125" y="15.24" size="0.9" layer="111" ratio="15" rot="R180" align="center-left">C1</text>
+<text x="18.89125" y="12.7" size="0.9" layer="111" ratio="15" rot="R180" align="center-left">C0</text>
+<text x="18.89125" y="10.16" size="0.9" layer="111" ratio="15" rot="R180" align="center-left">B17</text>
+<text x="18.89125" y="7.62" size="0.9" layer="111" ratio="15" rot="R180" align="center-left">B16</text>
+<text x="18.89125" y="5.08" size="0.9" layer="111" ratio="15" rot="R180" align="center-left">B3</text>
+<text x="18.89125" y="2.54" size="0.9" layer="111" ratio="15" rot="R180" align="center-left">B2</text>
 <circle x="10.16" y="32.22625" radius="0.127" width="0.254" layer="111"/>
 <circle x="13.6525" y="50.165" radius="0.127" width="0.254" layer="111"/>
 </plain>
@@ -2887,12 +2887,12 @@ design rules under a new name.</description>
 <wire x1="8.09625" y1="30.1625" x2="8.09625" y2="33.60053125" width="0.2032" layer="1"/>
 <wire x1="8.09625" y1="33.60053125" x2="8.89" y2="34.39428125" width="0.2032" layer="1"/>
 <wire x1="8.89" y1="45.72" x2="8.5725" y2="46.0375" width="0.2032" layer="1"/>
-<wire x1="8.5725" y1="46.0375" x2="7.9375" y2="46.0375" width="0.2032" layer="1"/>
-<via x="7.9375" y="46.0375" extent="1-16" drill="0.3"/>
+<via x="8.5725" y="46.0375" extent="1-16" drill="0.3"/>
 <wire x1="7.9375" y1="29.88105" x2="7.9375" y2="30.00375" width="0.2032" layer="1"/>
 <wire x1="8.89" y1="34.39428125" x2="8.89" y2="45.72" width="0.2032" layer="1"/>
-<wire x1="7.9375" y1="46.0375" x2="4.1275" y2="46.0375" width="0.3048" layer="16"/>
-<wire x1="7.9375" y1="48.0875" x2="7.9375" y2="46.0375" width="0.3048" layer="16"/>
+<wire x1="8.5725" y1="46.0375" x2="4.1275" y2="46.0375" width="0.3048" layer="16"/>
+<wire x1="7.9375" y1="48.0875" x2="7.9375" y2="46.6725" width="0.3048" layer="16"/>
+<wire x1="7.9375" y1="46.6725" x2="8.5725" y2="46.0375" width="0.3048" layer="16"/>
 </signal>
 <signal name="D+">
 <contactref element="RU3" pad="2"/>
