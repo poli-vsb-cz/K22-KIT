@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="mm" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -16763,13 +16763,13 @@ PTH and SMD connector options available.&lt;/p&gt;
 <sheets>
 <sheet>
 <plain>
-<text x="185.42" y="43.18" size="1.778" layer="104">S SWD Connector</text>
-<text x="177.8" y="-25.4" size="1.778" layer="247">PTD5 LED</text>
-<text x="45.72" y="-25.4" size="1.778" layer="247">Reset BTN</text>
-<text x="-68.58" y="76.2" size="1.778" layer="247">USB connector</text>
-<text x="-68.58" y="129.54" size="1.778" layer="247">V Voltage regulator</text>
-<text x="45.72" y="129.54" size="1.778" layer="247">M MCU</text>
-<text x="177.8" y="129.54" size="1.778" layer="247">Connectors</text>
+<text x="185.42" y="43.18" size="2.54" layer="247">S SWD Connector</text>
+<text x="177.8" y="-25.4" size="2.54" layer="247">L PTD5 LED</text>
+<text x="45.72" y="-25.4" size="2.54" layer="247">R Reset BTN</text>
+<text x="-68.58" y="76.2" size="2.54" layer="247">U USB connector</text>
+<text x="-68.58" y="129.54" size="2.54" layer="247">V Voltage regulator</text>
+<text x="45.72" y="129.54" size="2.54" layer="247">M MCU</text>
+<text x="177.8" y="129.54" size="2.54" layer="247">Connectors</text>
 <wire x1="43.18" y1="-20.32" x2="43.18" y2="-53.34" width="0.1524" layer="247"/>
 <wire x1="43.18" y1="-53.34" x2="101.6" y2="-53.34" width="0.1524" layer="247"/>
 <wire x1="167.64" y1="-53.34" x2="167.64" y2="-20.32" width="0.1524" layer="247"/>
@@ -16794,7 +16794,7 @@ PTH and SMD connector options available.&lt;/p&gt;
 <wire x1="106.68" y1="-20.32" x2="106.68" y2="-53.34" width="0.1524" layer="247"/>
 <wire x1="106.68" y1="-53.34" x2="167.64" y2="-53.34" width="0.1524" layer="247"/>
 <wire x1="106.68" y1="-20.32" x2="167.64" y2="-20.32" width="0.1524" layer="247"/>
-<text x="109.22" y="-25.4" size="1.778" layer="247">PTD4 BTN</text>
+<text x="109.22" y="-25.4" size="2.54" layer="247">B PTD4 BTN</text>
 <wire x1="175.26" y1="-20.32" x2="175.26" y2="-53.34" width="0.1524" layer="247"/>
 <wire x1="175.26" y1="-53.34" x2="231.14" y2="-53.34" width="0.1524" layer="247"/>
 <wire x1="231.14" y1="-53.34" x2="231.14" y2="-20.32" width="0.1524" layer="247"/>
