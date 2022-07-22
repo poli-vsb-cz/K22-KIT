@@ -6,6 +6,24 @@ Jednoduché zapojení: reference v FRDM-KL02Z a FRDM-KL28Z
 - PTD4 - LED
 - PTD5, PTD6, PTD7 ?!?!?!?!?!
 
+# Můj seznam signálů (z FRDM-K22)
+
+- PTA0, PTA1, PTA2, PTA3 - SWD/JTAG input
+- PTA4 - OpenSDA SWD_EN_B
+- PTA18, PTA19 - krystal
+- PTB0 - OpenSDA SWD_OE_B
+- PTB1 - OpenSDA reset (0 - bootloader, 1 - aplikace; současně je to připojené to HW resetu aplikačního MCU)
+- PTC3 - OpenSDA UART1_RX
+- PTC4 - OpenSDA UART1_TX
+- PTC5, PTC6, PTC7 - OpenSDA SWD output (do aplikačního MCU)
+- PTD4 - aplikační tlačítko
+- PTD4 - OpenSDA LEDka
+- PTD5 - Aplikační LEDka
+- PTD5 - OpenSDA 5V USB power sense
+- PTD6 - OpenSDA Power enable - asi není potřeba (je to výstup)
+- PTD7 - OpenSDA VTRG_FAULT_B
+- RESET - pullup do 3V3
+
 # Užitečné odkazy
 
 - https://github.com/pyocd/FlashAlgo
