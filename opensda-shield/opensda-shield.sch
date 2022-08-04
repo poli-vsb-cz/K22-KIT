@@ -7818,6 +7818,11 @@ PTH and SMD connector options available.&lt;/p&gt;
 <junction x="215.9" y="25.4"/>
 <label x="205.74" y="25.4" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="J5" gate="G$1" pin="9"/>
+<wire x1="261.62" y1="76.2" x2="269.24" y2="76.2" width="0.1524" layer="91"/>
+<label x="264.16" y="76.2" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="VIN" class="0">
 <segment>
