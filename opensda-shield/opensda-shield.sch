@@ -11162,19 +11162,19 @@ PTH and SMD connector options available.&lt;/p&gt;
 <attribute name="NAME" x="100.1014" y="36.83" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="104.902" y="36.83" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="IC1" gate="A" x="43.18" y="86.36" smashed="yes">
+<instance part="IC1" gate="B" x="43.18" y="86.36" smashed="yes">
 <attribute name="NAME" x="45.72" y="89.535" size="1.778" layer="95"/>
 <attribute name="VALUE" x="45.72" y="81.28" size="1.778" layer="96"/>
 </instance>
-<instance part="IC1" gate="B" x="43.18" y="68.58" smashed="yes" rot="R180">
+<instance part="IC1" gate="A" x="43.18" y="68.58" smashed="yes" rot="R180">
 <attribute name="NAME" x="50.8" y="73.025" size="1.778" layer="95"/>
 <attribute name="VALUE" x="50.8" y="63.5" size="1.778" layer="96"/>
 </instance>
-<instance part="IC1" gate="C" x="43.18" y="43.18" smashed="yes">
+<instance part="IC1" gate="D" x="43.18" y="43.18" smashed="yes">
 <attribute name="NAME" x="45.72" y="46.355" size="1.778" layer="95"/>
 <attribute name="VALUE" x="45.72" y="38.1" size="1.778" layer="96"/>
 </instance>
-<instance part="IC1" gate="D" x="43.18" y="17.78" smashed="yes">
+<instance part="IC1" gate="C" x="43.18" y="17.78" smashed="yes">
 <attribute name="NAME" x="45.72" y="20.955" size="1.778" layer="95"/>
 <attribute name="VALUE" x="45.72" y="12.7" size="1.778" layer="96"/>
 </instance>
@@ -11245,7 +11245,7 @@ PTH and SMD connector options available.&lt;/p&gt;
 <segment>
 <wire x1="33.02" y1="17.78" x2="25.4" y2="17.78" width="0.1524" layer="91"/>
 <label x="25.4" y="17.78" size="1.778" layer="95"/>
-<pinref part="IC1" gate="D" pin="I"/>
+<pinref part="IC1" gate="C" pin="I"/>
 </segment>
 <segment>
 <wire x1="101.6" y1="93.98" x2="101.6" y2="96.52" width="0.1524" layer="91"/>
@@ -11461,8 +11461,8 @@ PTH and SMD connector options available.&lt;/p&gt;
 <label x="48.26" y="55.88" size="1.778" layer="95"/>
 <wire x1="43.18" y1="55.88" x2="48.26" y2="55.88" width="0.1524" layer="91"/>
 <junction x="43.18" y="55.88"/>
-<pinref part="IC1" gate="B" pin="OE"/>
-<pinref part="IC1" gate="C" pin="OE"/>
+<pinref part="IC1" gate="A" pin="OE"/>
+<pinref part="IC1" gate="D" pin="OE"/>
 </segment>
 </net>
 <net name="PTA18" class="0">
@@ -11488,7 +11488,7 @@ PTH and SMD connector options available.&lt;/p&gt;
 <segment>
 <wire x1="43.18" y1="93.98" x2="43.18" y2="96.52" width="0.1524" layer="91"/>
 <label x="43.18" y="96.52" size="1.778" layer="95"/>
-<pinref part="IC1" gate="A" pin="OE"/>
+<pinref part="IC1" gate="B" pin="OE"/>
 </segment>
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
@@ -11505,7 +11505,7 @@ PTH and SMD connector options available.&lt;/p&gt;
 <segment>
 <wire x1="43.18" y1="25.4" x2="43.18" y2="27.94" width="0.1524" layer="91"/>
 <label x="43.18" y="27.94" size="1.778" layer="95"/>
-<pinref part="IC1" gate="D" pin="OE"/>
+<pinref part="IC1" gate="C" pin="OE"/>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
@@ -11600,7 +11600,7 @@ PTH and SMD connector options available.&lt;/p&gt;
 <segment>
 <wire x1="33.02" y1="43.18" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
 <label x="25.4" y="43.18" size="1.778" layer="95"/>
-<pinref part="IC1" gate="C" pin="I"/>
+<pinref part="IC1" gate="D" pin="I"/>
 </segment>
 </net>
 <net name="PTC6" class="0">
@@ -11612,7 +11612,7 @@ PTH and SMD connector options available.&lt;/p&gt;
 <segment>
 <wire x1="33.02" y1="86.36" x2="25.4" y2="86.36" width="0.1524" layer="91"/>
 <label x="25.4" y="86.36" size="1.778" layer="95"/>
-<pinref part="IC1" gate="A" pin="I"/>
+<pinref part="IC1" gate="B" pin="I"/>
 </segment>
 </net>
 <net name="PTC7" class="0">
@@ -11624,7 +11624,7 @@ PTH and SMD connector options available.&lt;/p&gt;
 <segment>
 <wire x1="33.02" y1="68.58" x2="25.4" y2="68.58" width="0.1524" layer="91"/>
 <label x="25.4" y="68.58" size="1.778" layer="95"/>
-<pinref part="IC1" gate="B" pin="O"/>
+<pinref part="IC1" gate="A" pin="O"/>
 </segment>
 </net>
 <net name="PTD0" class="0">
@@ -11695,8 +11695,8 @@ PTH and SMD connector options available.&lt;/p&gt;
 <wire x1="60.96" y1="86.36" x2="66.04" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="68.58" x2="60.96" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="68.58" x2="60.96" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="A" pin="O"/>
-<pinref part="IC1" gate="B" pin="I"/>
+<pinref part="IC1" gate="B" pin="O"/>
+<pinref part="IC1" gate="A" pin="I"/>
 </segment>
 <segment>
 <wire x1="264.16" y1="91.44" x2="271.78" y2="91.44" width="0.1524" layer="91"/>
@@ -11713,7 +11713,7 @@ PTH and SMD connector options available.&lt;/p&gt;
 <segment>
 <wire x1="53.34" y1="43.18" x2="66.04" y2="43.18" width="0.1524" layer="91"/>
 <label x="55.88" y="43.18" size="1.778" layer="95"/>
-<pinref part="IC1" gate="C" pin="O"/>
+<pinref part="IC1" gate="D" pin="O"/>
 </segment>
 <segment>
 <wire x1="264.16" y1="93.98" x2="271.78" y2="93.98" width="0.1524" layer="91"/>
@@ -11730,7 +11730,7 @@ PTH and SMD connector options available.&lt;/p&gt;
 <segment>
 <wire x1="53.34" y1="17.78" x2="66.04" y2="17.78" width="0.1524" layer="91"/>
 <label x="55.88" y="17.78" size="1.778" layer="95"/>
-<pinref part="IC1" gate="D" pin="O"/>
+<pinref part="IC1" gate="C" pin="O"/>
 </segment>
 <segment>
 <wire x1="264.16" y1="96.52" x2="271.78" y2="96.52" width="0.1524" layer="91"/>
