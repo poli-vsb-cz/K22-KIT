@@ -159,13 +159,14 @@
 </layers>
 <board>
 <plain>
-<wire x1="2.8575" y1="3.4925" x2="23.1775" y2="3.4925" width="0.1524" layer="20"/>
+<wire x1="2.8575" y1="55.5625" x2="2.8575" y2="4.7625" width="0.1524" layer="20"/>
+<wire x1="2.8575" y1="4.7625" x2="4.1275" y2="3.4925" width="0.1524" layer="20" curve="90"/>
+<wire x1="4.1275" y1="3.4925" x2="23.1775" y2="3.4925" width="0.1524" layer="20"/>
 <wire x1="23.1775" y1="3.4925" x2="24.4475" y2="4.7625" width="0.1524" layer="20" curve="90"/>
 <wire x1="24.4475" y1="4.7625" x2="24.4475" y2="55.5625" width="0.1524" layer="20"/>
 <wire x1="24.4475" y1="55.5625" x2="23.1775" y2="56.8325" width="0.1524" layer="20" curve="90"/>
 <wire x1="23.1775" y1="56.8325" x2="4.1275" y2="56.8325" width="0.1524" layer="20"/>
 <wire x1="4.1275" y1="56.8325" x2="2.8575" y2="55.5625" width="0.1524" layer="20" curve="90"/>
-<wire x1="2.8575" y1="55.5625" x2="2.8575" y2="3.4925" width="0.1524" layer="20"/>
 <text x="16.51" y="49.2125" size="1.016" layer="117" ratio="15" align="center-right">5V</text>
 <text x="16.51" y="46.6725" size="1.016" layer="117" ratio="15" align="center-right">3V3</text>
 <text x="16.51" y="54.2925" size="1.016" layer="117" ratio="15" align="center-right">GND</text>
