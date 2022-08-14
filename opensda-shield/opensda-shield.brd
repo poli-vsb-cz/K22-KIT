@@ -159,14 +159,13 @@
 </layers>
 <board>
 <plain>
-<wire x1="2.8575" y1="55.5625" x2="2.8575" y2="4.7625" width="0.1524" layer="20"/>
-<wire x1="2.8575" y1="4.7625" x2="4.1275" y2="3.4925" width="0.1524" layer="20" curve="90"/>
-<wire x1="4.1275" y1="3.4925" x2="23.1775" y2="3.4925" width="0.1524" layer="20"/>
+<wire x1="2.8575" y1="3.4925" x2="23.1775" y2="3.4925" width="0.1524" layer="20"/>
 <wire x1="23.1775" y1="3.4925" x2="24.4475" y2="4.7625" width="0.1524" layer="20" curve="90"/>
 <wire x1="24.4475" y1="4.7625" x2="24.4475" y2="55.5625" width="0.1524" layer="20"/>
 <wire x1="24.4475" y1="55.5625" x2="23.1775" y2="56.8325" width="0.1524" layer="20" curve="90"/>
 <wire x1="23.1775" y1="56.8325" x2="4.1275" y2="56.8325" width="0.1524" layer="20"/>
 <wire x1="4.1275" y1="56.8325" x2="2.8575" y2="55.5625" width="0.1524" layer="20" curve="90"/>
+<wire x1="2.8575" y1="55.5625" x2="2.8575" y2="3.4925" width="0.1524" layer="20"/>
 <text x="16.51" y="49.2125" size="1.016" layer="117" ratio="15" align="center-right">5V</text>
 <text x="16.51" y="46.6725" size="1.016" layer="117" ratio="15" align="center-right">3V3</text>
 <text x="16.51" y="54.2925" size="1.016" layer="117" ratio="15" align="center-right">GND</text>
@@ -177,8 +176,14 @@
 <text x="16.51" y="23.8125" size="0.762" layer="117" ratio="15" align="center-right">GND</text>
 <text x="16.51" y="21.2725" size="1.016" layer="117" ratio="15" align="center-right">RX</text>
 <text x="16.51" y="18.7325" size="1.016" layer="117" ratio="15" align="center-right">TX</text>
-<text x="9.8425" y="54.9275" size="1.016" layer="117" ratio="15" rot="R180" align="top-center">PTD4</text>
-<text x="12.3825" y="6.0325" size="1.016" layer="117" ratio="15" rot="R180" align="center-right">PTB1</text>
+<text x="9.8425" y="54.61" size="1.016" layer="117" ratio="15" rot="R180" align="top-center">PTD4</text>
+<text x="12.065" y="6.0325" size="1.016" layer="117" ratio="15" rot="R180" align="center-right">PTB1</text>
+<circle x="14.2875" y="41.5925" radius="0.0762" width="0.3048" layer="117"/>
+<circle x="13.6525" y="26.9875" radius="0.0762" width="0.3048" layer="117"/>
+<circle x="12.3825" y="8.89" radius="0.0762" width="0.3048" layer="117"/>
+<circle x="6.35" y="55.245" radius="0.0762" width="0.3048" layer="117"/>
+<circle x="16.51" y="55.245" radius="0.0762" width="0.3048" layer="117"/>
+<circle x="20.955" y="5.08" radius="0.0762" width="0.3048" layer="117"/>
 </plain>
 <libraries>
 <library name="74xx-eu" urn="urn:adsk.eagle:library:85">
