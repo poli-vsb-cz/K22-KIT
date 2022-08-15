@@ -89,12 +89,12 @@
 <layer number="108" name="tplace-old" color="10" fill="1" visible="no" active="yes"/>
 <layer number="109" name="ref-old" color="11" fill="1" visible="no" active="yes"/>
 <layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
+<layer number="111" name="Popis" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="113" name="IDFDebug" color="4" fill="1" visible="no" active="yes"/>
 <layer number="114" name="Badge_Outline" color="7" fill="1" visible="no" active="yes"/>
 <layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="no" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
-<layer number="117" name="Popis" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
@@ -166,25 +166,25 @@
 <wire x1="21.59" y1="52.07" x2="20.32" y2="53.34" width="0.1524" layer="20" curve="90"/>
 <wire x1="20.32" y1="53.34" x2="1.27" y2="53.34" width="0.1524" layer="20"/>
 <wire x1="1.27" y1="53.34" x2="0" y2="52.07" width="0.1524" layer="20" curve="90"/>
-<text x="13.97" y="45.72" size="1.016" layer="117" ratio="15" align="center-right">5V</text>
-<text x="13.97" y="43.18" size="1.016" layer="117" ratio="15" align="center-right">3V3</text>
-<text x="13.97" y="50.8" size="1.016" layer="117" ratio="15" align="center-right">GND</text>
-<text x="13.97" y="30.48" size="1.016" layer="117" ratio="15" align="center-right">GND</text>
-<text x="13.97" y="27.94" size="1.016" layer="117" ratio="15" align="center-right">RST</text>
-<text x="13.97" y="25.4" size="1.016" layer="117" ratio="15" align="center-right">CLK</text>
-<text x="13.97" y="22.86" size="1.016" layer="117" ratio="15" align="center-right">DIO</text>
-<text x="13.97" y="20.32" size="1.016" layer="117" ratio="15" align="center-right">GND</text>
-<text x="13.97" y="17.78" size="1.016" layer="117" ratio="15" align="center-right">RX</text>
-<text x="13.97" y="15.24" size="1.016" layer="117" ratio="15" align="center-right">TX</text>
-<text x="7.3025" y="51.1175" size="1.016" layer="117" ratio="15" rot="R180" align="top-center">PTD4</text>
-<text x="9.525" y="2.54" size="1.016" layer="117" ratio="15" rot="R180" align="center-right">PTB1</text>
-<circle x="10.795" y="37.7825" radius="0.254" width="0.1524" layer="117"/>
-<circle x="10.795" y="22.86" radius="0.254" width="0.1524" layer="117"/>
-<circle x="3.81" y="51.7525" radius="0.0762" width="0.3048" layer="117"/>
-<circle x="13.97" y="51.7525" radius="0.0762" width="0.3048" layer="117"/>
-<circle x="18.415" y="1.5875" radius="0.0762" width="0.3048" layer="117"/>
-<text x="4.1275" y="7.62" size="1.016" layer="117" ratio="15" align="center-left">BSEL</text>
-<text x="8.89" y="6.35" size="1.016" layer="117">1</text>
+<text x="13.97" y="45.72" size="1.016" layer="111" ratio="15" align="center-right">5V</text>
+<text x="13.97" y="43.18" size="1.016" layer="111" ratio="15" align="center-right">3V3</text>
+<text x="13.97" y="50.8" size="1.016" layer="111" ratio="15" align="center-right">GND</text>
+<text x="13.97" y="30.48" size="1.016" layer="111" ratio="15" align="center-right">GND</text>
+<text x="13.97" y="27.94" size="1.016" layer="111" ratio="15" align="center-right">RST</text>
+<text x="13.97" y="25.4" size="1.016" layer="111" ratio="15" align="center-right">CLK</text>
+<text x="13.97" y="22.86" size="1.016" layer="111" ratio="15" align="center-right">DIO</text>
+<text x="13.97" y="20.32" size="1.016" layer="111" ratio="15" align="center-right">GND</text>
+<text x="13.97" y="17.78" size="1.016" layer="111" ratio="15" align="center-right">RX</text>
+<text x="13.97" y="15.24" size="1.016" layer="111" ratio="15" align="center-right">TX</text>
+<text x="7.3025" y="51.1175" size="1.016" layer="111" ratio="15" rot="R180" align="top-center">PTD4</text>
+<text x="9.525" y="2.54" size="1.016" layer="111" ratio="15" rot="R180" align="center-right">PTB1</text>
+<circle x="10.795" y="37.7825" radius="0.254" width="0.1524" layer="111"/>
+<circle x="10.795" y="22.86" radius="0.254" width="0.1524" layer="111"/>
+<circle x="3.81" y="51.7525" radius="0.0762" width="0.3048" layer="111"/>
+<circle x="13.97" y="51.7525" radius="0.0762" width="0.3048" layer="111"/>
+<circle x="18.415" y="1.5875" radius="0.0762" width="0.3048" layer="111"/>
+<text x="4.1275" y="7.62" size="1.016" layer="111" ratio="15" align="center-left">BSEL</text>
+<text x="8.89" y="6.35" size="1.016" layer="111">1</text>
 </plain>
 <libraries>
 <library name="74xx-eu" urn="urn:adsk.eagle:library:85">
