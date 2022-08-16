@@ -32,8 +32,8 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -177,7 +177,6 @@
 <text x="13.97" y="17.78" size="1.016" layer="111" ratio="15" align="center-right">RX</text>
 <text x="13.97" y="15.24" size="1.016" layer="111" ratio="15" align="center-right">TX</text>
 <text x="7.3025" y="51.1175" size="1.016" layer="111" ratio="15" rot="R180" align="top-center">PTD4</text>
-<text x="9.525" y="2.54" size="1.016" layer="111" ratio="15" rot="R180" align="center-right">PTB1</text>
 <circle x="10.795" y="37.7825" radius="0.254" width="0.1524" layer="111"/>
 <circle x="10.795" y="22.86" radius="0.254" width="0.1524" layer="111"/>
 <circle x="3.81" y="51.7525" radius="0.0762" width="0.3048" layer="111"/>
@@ -1994,7 +1993,6 @@ design rules under a new name.</description>
 <contactref element="C1" pad="2"/>
 <contactref element="C2" pad="1"/>
 <wire x1="1.905" y1="43.18" x2="5.08" y2="43.18" width="0.3048" layer="1"/>
-<wire x1="9.60755" y1="17.03995" x2="9.57" y2="17.0775" width="0.3048" layer="1"/>
 <wire x1="5.08" y1="43.18" x2="6.35" y2="44.45" width="0.1524" layer="1"/>
 <wire x1="6.35" y1="47.845" x2="6.0325" y2="48.1625" width="0.1524" layer="1"/>
 <wire x1="6.35" y1="44.45" x2="6.35" y2="47.845" width="0.1524" layer="1"/>
@@ -2060,7 +2058,7 @@ design rules under a new name.</description>
 <signal name="UART_TX">
 <contactref element="J1" pad="15"/>
 </signal>
-<signal name="PTA4">
+<signal name="!SDA_SWD_EN_PTA4">
 <contactref element="J1" pad="16"/>
 <contactref element="R2" pad="2"/>
 <contactref element="IC1" pad="1"/>
@@ -2088,15 +2086,12 @@ design rules under a new name.</description>
 <signal name="PTA19">
 <contactref element="J1" pad="18"/>
 </signal>
-<signal name="PTB0">
+<signal name="!SDA_SWD_OE_PTB0">
 <contactref element="J1" pad="19"/>
 <contactref element="R3" pad="2"/>
 <contactref element="IC1" pad="4"/>
-<wire x1="7.62" y1="37.85" x2="7.62" y2="35.56" width="0.1524" layer="1"/>
-<wire x1="7.62" y1="35.56" x2="7.619996875" y2="35.559996875" width="0.1524" layer="1"/>
 <via x="6.0325" y="35.56" extent="1-16" drill="0.35"/>
-<wire x1="7.62" y1="35.56" x2="6.0325" y2="35.56" width="0.1524" layer="16"/>
-<via x="7.62" y="35.56" extent="1-16" drill="0.35"/>
+<wire x1="6.0325" y1="35.56" x2="7.62" y2="35.56" width="0.1524" layer="16"/>
 <wire x1="4.1275" y1="33.3375" x2="6.0325" y2="35.56" width="0.1524" layer="1"/>
 <wire x1="5.87375" y1="9.04875" x2="1.905" y2="5.08" width="0.1524" layer="1"/>
 <wire x1="5.87375" y1="9.04875" x2="5.87375" y2="14.605" width="0.1524" layer="1"/>
@@ -2107,8 +2102,10 @@ design rules under a new name.</description>
 <wire x1="5.87375" y1="14.605" x2="5.87375" y2="15.39875" width="0.1524" layer="1"/>
 <wire x1="5.87375" y1="15.39875" x2="5.715" y2="15.5575" width="0.1524" layer="1"/>
 <wire x1="5.715" y1="15.5575" x2="4.7625" y2="15.5575" width="0.1524" layer="1"/>
+<via x="7.62" y="35.56" extent="1-16" drill="0.35"/>
+<wire x1="7.62" y1="35.56" x2="7.62" y2="37.85" width="0.1524" layer="1"/>
 </signal>
-<signal name="PTB1">
+<signal name="!SDA_RST_TGTMCU_PTB1">
 <contactref element="J1" pad="20"/>
 <contactref element="R1" pad="2"/>
 <contactref element="J3" pad="1"/>
@@ -2148,7 +2145,7 @@ design rules under a new name.</description>
 <signal name="PTC2">
 <contactref element="J2" pad="7"/>
 </signal>
-<signal name="PTC3">
+<signal name="UART0_TX_TGTMCU_PTC3">
 <contactref element="J2" pad="8"/>
 <contactref element="IC2" pad="6"/>
 <wire x1="19.685" y1="20.32" x2="17.145" y2="20.32" width="0.1524" layer="16"/>
@@ -2162,7 +2159,7 @@ design rules under a new name.</description>
 <wire x1="6.32" y1="21.3025" x2="6.6675" y2="20.955" width="0.1524" layer="1"/>
 <wire x1="6.6675" y1="20.955" x2="6.6675" y2="21.9075" width="0.1524" layer="16"/>
 </signal>
-<signal name="PTC4">
+<signal name="UART0_RX_TGTMCU_PTC4">
 <contactref element="J2" pad="9"/>
 <contactref element="IC2" pad="2"/>
 <wire x1="19.685" y1="22.86" x2="17.78" y2="22.86" width="0.1524" layer="1"/>
@@ -2171,7 +2168,7 @@ design rules under a new name.</description>
 <wire x1="8.92" y1="23.525" x2="9.54405" y2="24.14905" width="0.1524" layer="1"/>
 <wire x1="9.54405" y1="24.14905" x2="16.49095" y2="24.14905" width="0.1524" layer="1"/>
 </signal>
-<signal name="PTC5">
+<signal name="SDA_SPI0_SCK_PTC5">
 <contactref element="J2" pad="10"/>
 <wire x1="18.44675" y1="26.63825" x2="19.685" y2="25.4" width="0.1524" layer="1"/>
 <contactref element="IC1" pad="12"/>
@@ -2179,7 +2176,7 @@ design rules under a new name.</description>
 <wire x1="12.82065" y1="26.63825" x2="18.44675" y2="26.63825" width="0.1524" layer="1"/>
 <wire x1="8.27" y1="31.1889" x2="12.82065" y2="26.63825" width="0.1524" layer="1"/>
 </signal>
-<signal name="PTC6">
+<signal name="SDA_SPI0_SOUT_PTC6">
 <contactref element="J2" pad="11"/>
 <contactref element="IC1" pad="5"/>
 <wire x1="6.97" y1="37.85" x2="6.97" y2="35.18765" width="0.1524" layer="1"/>
@@ -2189,7 +2186,7 @@ design rules under a new name.</description>
 <wire x1="10.16" y1="34.6075" x2="7.55015" y2="34.6075" width="0.1524" layer="1"/>
 <wire x1="15.875" y1="31.75" x2="13.0175" y2="31.75" width="0.1524" layer="1"/>
 </signal>
-<signal name="PTC7">
+<signal name="SDA_SPI0_SIN_PTC7">
 <contactref element="J2" pad="12"/>
 <contactref element="IC1" pad="3"/>
 <wire x1="8.27" y1="37.85" x2="8.27" y2="35.545" width="0.1524" layer="1"/>
@@ -2211,7 +2208,7 @@ design rules under a new name.</description>
 <signal name="PTD3">
 <contactref element="J2" pad="16"/>
 </signal>
-<signal name="PTD4">
+<signal name="!SDA_LED_PTD4">
 <contactref element="J2" pad="17"/>
 <contactref element="R5" pad="2"/>
 <wire x1="7.9375" y1="48.2625" x2="11.4275" y2="48.2625" width="0.1524" layer="1"/>
@@ -2256,7 +2253,6 @@ design rules under a new name.</description>
 <wire x1="15.24" y1="25.4" x2="15.23365" y2="25.39365" width="0.1524" layer="1"/>
 <wire x1="15.23365" y1="25.39365" x2="13.4493" y2="25.39365" width="0.1524" layer="1"/>
 <wire x1="7.62" y1="31.22295" x2="13.4493" y2="25.39365" width="0.1524" layer="1"/>
-<wire x1="17.4498" y1="21.971" x2="17.4498" y2="21.9202" width="0.1524" layer="1"/>
 <wire x1="17.4498" y1="21.9202" x2="17.4498" y2="14.5542" width="0.1524" layer="1"/>
 <wire x1="11.7475" y1="8.255" x2="11.7475" y2="8.8519" width="0.1524" layer="1"/>
 <wire x1="17.4498" y1="14.5542" x2="11.7475" y2="8.8519" width="0.1524" layer="1"/>
@@ -2265,7 +2261,7 @@ design rules under a new name.</description>
 <via x="17.145" y="22.225" extent="1-16" drill="0.35"/>
 <wire x1="17.145" y1="22.225" x2="17.4498" y2="21.9202" width="0.1524" layer="1"/>
 </signal>
-<signal name="RST_TGT">
+<signal name="!RST_TGT">
 <contactref element="J5" pad="10"/>
 <contactref element="J4" pad="10"/>
 <contactref element="IC1" pad="8"/>
@@ -2316,10 +2312,8 @@ design rules under a new name.</description>
 <contactref element="IC2" pad="13"/>
 <contactref element="IC2" pad="12"/>
 <wire x1="6.32" y1="17.0775" x2="6.97" y2="17.0775" width="0.1524" layer="1"/>
-<wire x1="9.2075" y1="14.6025" x2="9.17195" y2="14.6025" width="0.1524" layer="1"/>
-<wire x1="9.2075" y1="14.73205" x2="9.2075" y2="14.6025" width="0.1524" layer="1"/>
+<wire x1="9.2075" y1="14.73205" x2="9.2075" y2="14.605" width="0.1524" layer="1"/>
 <wire x1="8.255" y1="16.1925" x2="8.89" y2="16.1925" width="0.1524" layer="1"/>
-<wire x1="8.89" y1="16.1925" x2="8.92" y2="16.1925" width="0.1524" layer="1"/>
 <wire x1="8.92" y1="17.0775" x2="8.92" y2="16.2225" width="0.1524" layer="1"/>
 <wire x1="8.92" y1="16.2225" x2="8.89" y2="16.1925" width="0.1524" layer="1"/>
 <wire x1="8.27" y1="17.0775" x2="8.27" y2="16.2075" width="0.1524" layer="1"/>
@@ -2328,14 +2322,15 @@ design rules under a new name.</description>
 <wire x1="6.97" y1="16.525" x2="7.3025" y2="16.1925" width="0.1524" layer="1"/>
 <wire x1="7.3025" y1="16.1925" x2="8.255" y2="16.1925" width="0.1524" layer="1"/>
 <wire x1="9.2075" y1="15.875" x2="8.89" y2="16.1925" width="0.1524" layer="1"/>
-<wire x1="9.2075" y1="14.6025" x2="9.2075" y2="15.875" width="0.1524" layer="1"/>
+<wire x1="9.2075" y1="14.73205" x2="9.2075" y2="15.875" width="0.1524" layer="1"/>
+<wire x1="9.2075" y1="14.6025" x2="9.2075" y2="14.605" width="0.1524" layer="1"/>
 </signal>
-<signal name="N$1">
+<signal name="3V3_OUT">
 <contactref element="J5" pad="3"/>
 <contactref element="JP1" pad="3"/>
 <wire x1="7.62" y1="45.72" x2="15.24" y2="45.72" width="0.3048" layer="1"/>
 </signal>
-<signal name="N$3">
+<signal name="USB5V_OUT">
 <contactref element="J5" pad="4"/>
 <contactref element="JP1" pad="1"/>
 <wire x1="7.62" y1="43.18" x2="15.24" y2="43.18" width="0.3048" layer="1"/>
