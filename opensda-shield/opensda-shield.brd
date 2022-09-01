@@ -183,8 +183,8 @@
 <circle x="13.97" y="51.7525" radius="0.0762" width="0.3048" layer="111"/>
 <circle x="18.415" y="1.5875" radius="0.0762" width="0.3048" layer="111"/>
 <text x="8.89" y="5.3975" size="1.143" layer="111" ratio="15" align="bottom-center">BOOT</text>
-<text x="6.0325" y="7.9375" size="1.143" layer="111">1</text>
-<text x="13.97" y="1.5875" size="1.27" layer="111" align="bottom-center">OpenSDA
+<text x="5.3975" y="7.9375" size="1.143" layer="111">1</text>
+<text x="13.6525" y="1.27" size="1.397" layer="111" align="bottom-center">OpenSDA
 shield</text>
 </plain>
 <libraries>
@@ -1865,9 +1865,9 @@ design rules under a new name.</description>
 <attribute name="NAME" x="2.921" y="0.508" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="8.763" y="0.508" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="J4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="2X5-PTH-1.27MM" package3d_urn="urn:adsk.eagle:package:38290/1" value="CORTEX_DEBUG_PTH" x="10.4775" y="9.2075" smashed="yes">
-<attribute name="NAME" x="8.9027" y="11.1379" size="0.6096" layer="25" font="vector" ratio="20"/>
-<attribute name="VALUE" x="8.6487" y="6.7437" size="0.6096" layer="27" font="vector" ratio="20"/>
+<element name="J4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="2X5-PTH-1.27MM" package3d_urn="urn:adsk.eagle:package:38290/1" value="CORTEX_DEBUG_PTH" x="9.8425" y="9.2075" smashed="yes">
+<attribute name="NAME" x="8.2677" y="11.1379" size="0.6096" layer="25" font="vector" ratio="20"/>
+<attribute name="VALUE" x="8.0137" y="6.7437" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="J5" library="Headers" library_urn="urn:adsk.eagle:library:11687645" package="61301511121" package3d_urn="urn:adsk.eagle:package:11391913/2" value="61301511121" x="15.24" y="33.02" smashed="yes" rot="R270">
 <attribute name="CREATED_BY" value="PCBLayout.com" x="-20.32" y="0" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2038,11 +2038,11 @@ design rules under a new name.</description>
 <wire x1="8.255" y1="13.02" x2="8.255" y2="11.7475" width="0.1524" layer="1"/>
 <via x="8.255" y="11.7475" extent="1-16" drill="0.35"/>
 <wire x1="8.255" y1="11.7475" x2="8.255" y2="19.05" width="0.1524" layer="16"/>
-<wire x1="7.62" y1="11.7475" x2="8.255" y2="11.7475" width="0.1524" layer="1"/>
-<wire x1="7.62" y1="11.7475" x2="6.6675" y2="10.795" width="0.1524" layer="1"/>
-<wire x1="6.6675" y1="10.795" x2="6.6675" y2="6.9825" width="0.1524" layer="1"/>
-<wire x1="8.255" y1="4.125" x2="8.255" y2="5.395" width="0.1524" layer="1"/>
-<wire x1="8.255" y1="5.395" x2="6.6675" y2="6.9825" width="0.1524" layer="1"/>
+<wire x1="6.35" y1="11.7475" x2="8.255" y2="11.7475" width="0.1524" layer="1"/>
+<wire x1="6.35" y1="11.7475" x2="5.3975" y2="10.795" width="0.1524" layer="1"/>
+<wire x1="5.3975" y1="10.795" x2="5.3975" y2="8.57" width="0.1524" layer="1"/>
+<wire x1="8.255" y1="4.125" x2="8.255" y2="5.7125" width="0.1524" layer="1"/>
+<wire x1="8.255" y1="5.7125" x2="5.3975" y2="8.57" width="0.1524" layer="1"/>
 <wire x1="1.905" y1="43.18" x2="3.81" y2="43.18" width="0.3048" layer="1"/>
 <wire x1="3.81" y1="43.18" x2="6.0325" y2="40.9575" width="0.3048" layer="1"/>
 <contactref element="JP2" pad="2"/>
@@ -2253,8 +2253,8 @@ design rules under a new name.</description>
 <contactref element="IC1" pad="6"/>
 <wire x1="15.24" y1="22.86" x2="13.6525" y2="24.4475" width="0.1524" layer="16"/>
 <wire x1="17.145" y1="14.86535" x2="14.34465" y2="12.065" width="0.1524" layer="1"/>
-<wire x1="7.9375" y1="9.8425" x2="10.16" y2="12.065" width="0.1524" layer="1"/>
-<wire x1="14.34465" y1="12.065" x2="10.16" y2="12.065" width="0.1524" layer="1"/>
+<wire x1="7.3025" y1="9.8425" x2="9.525" y2="12.065" width="0.1524" layer="1"/>
+<wire x1="14.34465" y1="12.065" x2="9.525" y2="12.065" width="0.1524" layer="1"/>
 <wire x1="17.145" y1="20.955" x2="15.24" y2="22.86" width="0.1524" layer="1"/>
 <wire x1="17.145" y1="14.86535" x2="17.145" y2="20.955" width="0.1524" layer="1"/>
 <via x="8.5725" y="39.0525" extent="1-16" drill="0.35"/>
@@ -2278,8 +2278,8 @@ design rules under a new name.</description>
 <contactref element="IC1" pad="11"/>
 <wire x1="7.62" y1="32" x2="7.62" y2="31.115" width="0.1524" layer="1"/>
 <wire x1="17.4498" y1="21.9202" x2="17.4498" y2="14.5542" width="0.1524" layer="1"/>
-<wire x1="14.3256" y1="11.43" x2="10.795" y2="11.43" width="0.1524" layer="1"/>
-<wire x1="9.2075" y1="9.8425" x2="10.795" y2="11.43" width="0.1524" layer="1"/>
+<wire x1="14.3256" y1="11.43" x2="10.16" y2="11.43" width="0.1524" layer="1"/>
+<wire x1="8.5725" y1="9.8425" x2="10.16" y2="11.43" width="0.1524" layer="1"/>
 <wire x1="17.4498" y1="14.5542" x2="14.3256" y2="11.43" width="0.1524" layer="1"/>
 <wire x1="15.24" y1="25.4" x2="17.145" y2="23.495" width="0.1524" layer="16"/>
 <wire x1="17.145" y1="23.495" x2="17.145" y2="22.225" width="0.1524" layer="16"/>
@@ -2293,7 +2293,7 @@ design rules under a new name.</description>
 <contactref element="J5" pad="10"/>
 <contactref element="J4" pad="10"/>
 <contactref element="IC1" pad="8"/>
-<wire x1="13.0175" y1="9.8425" x2="13.3477" y2="9.8425" width="0.1524" layer="1"/>
+<wire x1="12.3825" y1="9.8425" x2="13.3477" y2="9.8425" width="0.1524" layer="1"/>
 <wire x1="18.06575" y1="21.3487" x2="17.78" y2="21.06295" width="0.1524" layer="1"/>
 <wire x1="17.78" y1="21.06295" x2="17.78" y2="14.2748" width="0.1524" layer="1"/>
 <via x="18.06575" y="21.3487" extent="1-16" drill="0.35"/>
