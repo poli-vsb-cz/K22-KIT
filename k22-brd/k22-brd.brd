@@ -37,7 +37,7 @@
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -259,7 +259,7 @@ v2.0</text>
 <text x="6.35" y="2.54" size="1.143" layer="111" ratio="15">1</text>
 <text x="10.95375" y="0.635" size="0.8128" layer="30" ratio="15" rot="MR0" align="bottom-center">JV &amp; poli  2022</text>
 <text x="16.8275" y="0.635" size="1.016" layer="16" rot="MR0">JV &amp; poli 2022</text>
-<text x="16.8275" y="0.635" size="1.016" layer="40" rot="MR0">JV &amp; poli 2022</text>
+<text x="16.8275" y="0.635" size="1.016" layer="30" rot="MR0">JV &amp; poli 2022</text>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
