@@ -181,11 +181,13 @@
 <circle x="10.16" y="22.86" radius="0.254" width="0.1524" layer="111"/>
 <circle x="3.81" y="51.7525" radius="0.0762" width="0.3048" layer="111"/>
 <circle x="13.97" y="51.7525" radius="0.0762" width="0.3048" layer="111"/>
-<circle x="18.415" y="1.5875" radius="0.0762" width="0.3048" layer="111"/>
+<circle x="18.415" y="0.635" radius="0.0762" width="0.3048" layer="111"/>
 <text x="8.89" y="5.3975" size="1.143" layer="111" ratio="15" align="bottom-center">BOOT</text>
 <text x="5.3975" y="7.9375" size="1.143" layer="111">1</text>
-<text x="13.6525" y="1.27" size="1.397" layer="111" align="bottom-center">OpenSDA
-shield</text>
+<text x="13.6525" y="1.27" size="1.27" layer="111" align="bottom-center">OpenSDA
+shield v1.1</text>
+<text x="17.78" y="1.27" size="1.143" layer="16" rot="MR0">JV &amp; poli 2022</text>
+<text x="17.78" y="1.27" size="1.143" layer="40" rot="MR0">JV &amp; poli 2022</text>
 </plain>
 <libraries>
 <library name="74xx-eu" urn="urn:adsk.eagle:library:85">
@@ -1882,11 +1884,11 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="52" x="36.195" y="-1.27" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="9.525" y="48.26" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k" x="8.255" y="3.175" smashed="yes" rot="R270">
-<attribute name="NAME" x="9.525" y="3.81" size="1.27" layer="25" rot="R270"/>
-<attribute name="POPULARITY" value="86" x="-34.925" y="-32.385" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="-34.925" y="-32.385" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="5.715" y="3.81" size="1.27" layer="27" rot="R270"/>
+<element name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k" x="7.9375" y="3.175" smashed="yes" rot="R270">
+<attribute name="NAME" x="9.2075" y="3.81" size="1.27" layer="25" rot="R270"/>
+<attribute name="POPULARITY" value="86" x="-35.2425" y="-32.385" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="-35.2425" y="-32.385" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="5.3975" y="3.81" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k" x="5.08" y="27.305" smashed="yes" rot="R270">
 <attribute name="NAME" x="6.35" y="27.94" size="1.27" layer="25" rot="R270"/>
@@ -1977,8 +1979,8 @@ design rules under a new name.</description>
 <via x="10.4775" y="23.495" extent="1-16" drill="0.35"/>
 <via x="5.87375" y="21.59" extent="1-16" drill="0.35"/>
 <via x="10.795" y="15.24" extent="1-16" drill="0.35"/>
-<via x="10.795" y="2.54" extent="1-16" drill="0.35"/>
-<via x="17.145" y="2.54" extent="1-16" drill="0.35"/>
+<via x="11.7475" y="6.0325" extent="1-16" drill="0.35"/>
+<via x="16.8275" y="6.0325" extent="1-16" drill="0.35"/>
 <via x="17.4625" y="31.4325" extent="1-16" drill="0.35"/>
 <via x="5.87375" y="18.25625" extent="1-16" drill="0.35"/>
 <via x="10.16" y="24.765" extent="1-16" drill="0.35"/>
@@ -2041,8 +2043,8 @@ design rules under a new name.</description>
 <wire x1="6.35" y1="11.7475" x2="8.255" y2="11.7475" width="0.1524" layer="1"/>
 <wire x1="6.35" y1="11.7475" x2="5.3975" y2="10.795" width="0.1524" layer="1"/>
 <wire x1="5.3975" y1="10.795" x2="5.3975" y2="8.57" width="0.1524" layer="1"/>
-<wire x1="8.255" y1="4.125" x2="8.255" y2="5.7125" width="0.1524" layer="1"/>
-<wire x1="8.255" y1="5.7125" x2="5.3975" y2="8.57" width="0.1524" layer="1"/>
+<wire x1="7.9375" y1="4.125" x2="7.9375" y2="6.03" width="0.1524" layer="1"/>
+<wire x1="7.9375" y1="6.03" x2="5.3975" y2="8.57" width="0.1524" layer="1"/>
 <wire x1="1.905" y1="43.18" x2="3.81" y2="43.18" width="0.3048" layer="1"/>
 <wire x1="3.81" y1="43.18" x2="6.0325" y2="40.9575" width="0.3048" layer="1"/>
 <contactref element="JP2" pad="2"/>
@@ -2129,8 +2131,8 @@ design rules under a new name.</description>
 <contactref element="R1" pad="2"/>
 <contactref element="J3" pad="1"/>
 <contactref element="IC1" pad="10"/>
-<wire x1="8.255" y1="2.225" x2="7.94" y2="2.54" width="0.1524" layer="1"/>
-<wire x1="5.08" y1="2.54" x2="7.94" y2="2.54" width="0.1524" layer="1"/>
+<wire x1="7.9375" y1="2.225" x2="7.6225" y2="2.54" width="0.1524" layer="1"/>
+<wire x1="5.08" y1="2.54" x2="7.6225" y2="2.54" width="0.1524" layer="1"/>
 <wire x1="1.905" y1="2.54" x2="3.81" y2="2.54" width="0.1524" layer="1"/>
 <wire x1="3.81" y1="2.54" x2="5.08" y2="2.54" width="0.1524" layer="1"/>
 <wire x1="6.35" y1="25.0825" x2="4.445" y2="23.1775" width="0.1524" layer="1"/>
