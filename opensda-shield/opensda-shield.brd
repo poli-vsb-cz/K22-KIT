@@ -32,12 +32,12 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -89,7 +89,7 @@
 <layer number="108" name="tplace-old" color="10" fill="1" visible="no" active="yes"/>
 <layer number="109" name="ref-old" color="11" fill="1" visible="no" active="yes"/>
 <layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
-<layer number="111" name="Popis" color="7" fill="1" visible="no" active="yes"/>
+<layer number="111" name="Popis" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="113" name="IDFDebug" color="4" fill="1" visible="no" active="yes"/>
 <layer number="114" name="Badge_Outline" color="7" fill="1" visible="no" active="yes"/>
@@ -168,7 +168,7 @@
 <wire x1="20.32" y1="0" x2="21.59" y2="1.27" width="0.1524" layer="20" curve="90"/>
 <text x="13.6525" y="45.72" size="1.143" layer="111" ratio="15" align="center-right">5V</text>
 <text x="13.6525" y="43.18" size="1.143" layer="111" ratio="15" align="center-right">3V3</text>
-<text x="13.6525" y="50.8" size="1.143" layer="111" ratio="15" align="center-right">GND</text>
+<text x="13.6525" y="50.4825" size="1.143" layer="111" ratio="15" align="center-right">GND</text>
 <text x="13.6525" y="30.48" size="1.143" layer="111" ratio="15" align="center-right">GND</text>
 <text x="13.6525" y="27.94" size="1.143" layer="111" ratio="15" align="center-right">RST</text>
 <text x="13.6525" y="25.4" size="1.143" layer="111" ratio="15" align="center-right">CLK</text>
@@ -176,17 +176,17 @@
 <text x="13.6525" y="20.32" size="1.143" layer="111" ratio="15" align="center-right">GND</text>
 <text x="13.6525" y="17.78" size="1.143" layer="111" ratio="15" align="center-right">RX</text>
 <text x="13.6525" y="15.24" size="1.143" layer="111" ratio="15" align="center-right">TX</text>
-<text x="8.5725" y="51.7525" size="1.016" layer="111" ratio="15" rot="R180" align="top-center">SDA_LED</text>
+<text x="8.5725" y="51.7525" size="1.143" layer="111" ratio="15" rot="R180" align="top-center">SDA_LED</text>
 <circle x="10.16" y="37.7825" radius="0.254" width="0.1524" layer="111"/>
 <circle x="10.16" y="22.86" radius="0.254" width="0.1524" layer="111"/>
 <circle x="3.81" y="51.7525" radius="0.0762" width="0.3048" layer="111"/>
-<circle x="13.97" y="51.7525" radius="0.0762" width="0.3048" layer="111"/>
+<circle x="13.335" y="52.07" radius="0.0762" width="0.3048" layer="111"/>
 <circle x="18.415" y="0.635" radius="0.0762" width="0.3048" layer="111"/>
 <text x="8.89" y="5.3975" size="1.143" layer="111" ratio="15" align="bottom-center">BOOT</text>
-<text x="5.3975" y="7.9375" size="1.143" layer="111">1</text>
+<text x="6.0325" y="7.9375" size="1.27" layer="111" ratio="15">1</text>
 <text x="13.6525" y="1.27" size="1.27" layer="111" align="bottom-center">OpenSDA
 shield v1.1</text>
-<text x="12.7" y="1.27" size="1.016" layer="30" rot="MR0" align="bottom-center">JV &amp; poli 2022</text>
+<text x="12.7" y="1.27" size="1.0668" layer="30" rot="MR0" align="bottom-center">JV &amp; poli 2022</text>
 </plain>
 <libraries>
 <library name="74xx-eu" urn="urn:adsk.eagle:library:85">

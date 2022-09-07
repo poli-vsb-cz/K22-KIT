@@ -30,7 +30,7 @@
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
@@ -203,13 +203,13 @@
 <wire x1="20.32" y1="63.5" x2="21.59" y2="62.23" width="0.0762" layer="20" curve="-90"/>
 <wire x1="21.59" y1="1.27" x2="20.32" y2="0" width="0.0762" layer="20" curve="-90"/>
 <wire x1="1.27" y1="0" x2="0" y2="1.27" width="0.0762" layer="20" curve="-90"/>
-<text x="10.795" y="26.035" size="1.5" layer="111" ratio="15" align="center">K2x</text>
+<text x="10.795" y="26.035" size="1.524" layer="111" ratio="15" align="center">K2x</text>
 <text x="15.5575" y="48.73625" size="0.9" layer="111" ratio="15" align="center">+</text>
 <text x="15.5575" y="46.99" size="0.9" layer="111" ratio="15" align="center">+</text>
 <text x="8.255" y="39.0525" size="1.143" layer="111" ratio="15" rot="R270" align="bottom-center">RST</text>
 <text x="13.335" y="39.0525" size="1.143" layer="111" ratio="15" rot="R270" align="top-center">PTD4</text>
 <text x="14.605" y="50.8" size="1.143" layer="111" ratio="15" rot="R270" align="top-center">PWR</text>
-<text x="14.605" y="44.7675" size="1.016" layer="111" ratio="15" rot="R270" align="top-center">PTD5</text>
+<text x="14.605" y="44.7675" size="1.143" layer="111" ratio="15" rot="R270" align="top-center">PTD5</text>
 <wire x1="6.0325" y1="49.68875" x2="6.0325" y2="49.05375" width="0.1524" layer="30"/>
 <wire x1="5.715" y1="49.37125" x2="6.35" y2="49.37125" width="0.1524" layer="30"/>
 <text x="3.33375" y="50.8" size="1.143" layer="111" ratio="15" rot="R180" align="center-right">GND</text>
@@ -255,9 +255,9 @@
 <circle x="10.00125" y="31.59125" radius="0.254" width="0.1524" layer="111"/>
 <circle x="13.0175" y="50.165" radius="0.127" width="0.254" layer="111"/>
 <text x="10.795" y="14.2875" size="1.27" layer="111" ratio="15" align="center">K22-KIT
-v2.0</text>
+v2.1</text>
 <text x="6.35" y="2.54" size="1.143" layer="111" ratio="15">1</text>
-<text x="10.95375" y="0.762" size="1.016" layer="30" ratio="15" rot="MR0" align="bottom-center">JV &amp; poli  2022</text>
+<text x="10.95375" y="0.762" size="1.0668" layer="30" ratio="15" rot="MR0" align="bottom-center">JV &amp; poli  2022</text>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
@@ -2609,7 +2609,7 @@ design rules under a new name.</description>
 <via x="13.335" y="51.1175" extent="1-16" drill="0.3"/>
 <via x="6.6675" y="39.0525" extent="1-16" drill="0.3"/>
 <via x="13.49375" y="26.3525" extent="1-16" drill="0.3"/>
-<via x="16.8275" y="26.035" extent="1-16" drill="0.3"/>
+<via x="16.8275" y="26.67" extent="1-16" drill="0.3"/>
 <via x="13.97" y="9.04875" extent="1-16" drill="0.3"/>
 <via x="7.62" y="9.04875" extent="1-16" drill="0.3"/>
 <via x="8.73125" y="49.53" extent="1-16" drill="0.3"/>
@@ -3303,11 +3303,11 @@ design rules under a new name.</description>
 <contactref element="LED_3V3" pad="C"/>
 <contactref element="RV1" pad="1"/>
 <wire x1="16.825" y1="51.1175" x2="16.8338875" y2="51.1263875" width="0.1524" layer="16"/>
-<wire x1="18.00098125" y1="51.5239" x2="17.60346875" y2="51.1263875" width="0.1524" layer="16"/>
-<wire x1="17.60346875" y1="51.1263875" x2="16.8338875" y2="51.1263875" width="0.1524" layer="16"/>
-<via x="18.00098125" y="51.5239" extent="1-16" drill="0.3"/>
-<wire x1="15.5575" y1="51.85" x2="17.67488125" y2="51.85" width="0.1524" layer="1"/>
-<wire x1="17.67488125" y1="51.85" x2="18.00098125" y2="51.5239" width="0.1524" layer="1"/>
+<wire x1="18.00098125" y1="51.8414" x2="17.28596875" y2="51.1263875" width="0.1524" layer="16"/>
+<wire x1="17.28596875" y1="51.1263875" x2="16.8338875" y2="51.1263875" width="0.1524" layer="16"/>
+<via x="18.00098125" y="51.8414" extent="1-16" drill="0.3"/>
+<wire x1="15.5575" y1="51.85" x2="17.99238125" y2="51.85" width="0.1524" layer="1"/>
+<wire x1="17.99238125" y1="51.85" x2="18.00098125" y2="51.8414" width="0.1524" layer="1"/>
 </signal>
 <signal name="GNDCUTOU">
 <polygon width="0.2032" layer="16" pour="cutout">
