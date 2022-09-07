@@ -14612,6 +14612,16 @@ Updated by Ella Wu 2022-05-09&lt;br&gt;
 <pinref part="CU1" gate="G$1" pin="1"/>
 <label x="-45.72" y="58.42" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="SWB" gate="G$1" pin="2"/>
+<wire x1="123.19" y1="-43.18" x2="111.76" y2="-43.18" width="0.1524" layer="91"/>
+<label x="111.76" y="-43.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SWR" gate="G$1" pin="2"/>
+<wire x1="69.85" y1="-45.72" x2="53.34" y2="-45.72" width="0.1524" layer="91"/>
+<label x="53.34" y="-45.72" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="VBUSCON" class="0">
 <segment>
