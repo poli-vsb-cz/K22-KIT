@@ -184,7 +184,7 @@
 <circle x="18.415" y="0.635" radius="0.0762" width="0.3048" layer="111"/>
 <text x="8.89" y="5.3975" size="1.143" layer="111" ratio="15" align="bottom-center">BOOT</text>
 <text x="6.0325" y="7.9375" size="1.27" layer="111" ratio="15">1</text>
-<text x="13.6525" y="1.27" size="1.27" layer="111" align="bottom-center">OpenSDA
+<text x="13.6525" y="1.27" size="1.27" layer="111" ratio="15" align="bottom-center">OpenSDA
 shield v1.1</text>
 <text x="12.7" y="1.27" size="1.0668" layer="30" rot="MR0" align="bottom-center">JV &amp; poli 2022</text>
 </plain>
@@ -1983,6 +1983,7 @@ design rules under a new name.</description>
 <via x="17.4625" y="31.4325" extent="1-16" drill="0.35"/>
 <via x="5.87375" y="18.25625" extent="1-16" drill="0.35"/>
 <via x="10.16" y="24.765" extent="1-16" drill="0.35"/>
+<via x="13.0175" y="38.1" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="VIN">
 <contactref element="J1" pad="2"/>
